@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* ? Estilo para telas */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+menu {
+    display: block;
+    background-color: #333;
+    color: #fff;
+}
+menu ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+menu ul li {
+    cursor: pointer;
+}
+menu ul li:hover {
+    text-decoration: underline;
+}
+article {
+    margin: 20px;
+    line-height: 1.6em;
+}
+article::after {
+    content: "";
+}
+article h1 {
+    color: #2c3e50;
+}
+article p {
+    color: #34495e;
+}
+article a {
+    color: #2980b9;
+    text-decoration: none;
+}
+article a:hover {
+    text-decoration: underline;
+}
+article img {
+    max-width: 100%;
+    height: auto;
+}
+article img:hover {
+    filter: brightness(90%);
+}
+article blockquote {
+    border-left: 4px solid #bdc3c7;
+    padding-left: 10px;
+    color: #7f8c8d;
+    font-style: italic;
+}
+article blockquote:hover {
+    background-color: #ecf0f1;
+}
+menu li {
+    background-color: #4b4d4e;
+    display: inline-block;
+    padding: 5px 10px;
+}
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
