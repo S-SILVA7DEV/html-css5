@@ -39,8 +39,8 @@ img {
     display: block;
     margin: auto;
 }
-img#phone {display: block;}
-img#tablet {display: none;}
-img#print {display: none;}
-img#pc {display: none;}
-img#tv {display: none;}
+img#phone {display: none;} /* imagem padrão escondida */
+img#tablet {display: none;} /* imagem padrão escondida */
+img#print {display: none;}  /* imagem padrão escondida */
+img#pc {display: none;}     /* imagem padrão escondida */
+img#tv {display: none;}    /* imagem padrão escondida */
