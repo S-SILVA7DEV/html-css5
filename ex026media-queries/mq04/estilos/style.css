@@ -30,17 +30,41 @@ main {
     padding: 10px;
 }
 
-h1 {
+.tb {
     text-align: center;
-    color: white;;
+    color: darkslategrey;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.808);
 }
+
+.cell {
+    text-align: center;
+    color: darkblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.808);
+}
+.pc {
+    text-align: center;
+    color: darkmagenta;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.808);
+}
+.tv {
+    text-align: center;
+    color: darkgrey;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.808);
+}
+
 img {
     display: block;
     margin: auto;
 }
+
 img#phone {display: none;} /* imagem padrão escondida */
 img#tablet {display: none;} /* imagem padrão escondida */
 img#print {display: none;}  /* imagem padrão escondida */
 img#pc {display: none;}     /* imagem padrão escondida */
 img#tv {display: none;}    /* imagem padrão escondida */
+
+.tb {display: none;}
+.cell {display: none;}
+.imp {display: none;}
+.pc {display: none;}
+.tv {display: none;}

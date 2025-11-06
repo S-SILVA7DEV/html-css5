@@ -38,11 +38,20 @@ main h1 {
 }
 }
 
+@media screen and (min-width:500px) and (max-width: 768px) { /* Celular */
+    body {
+    background-image: url(../imagens/back-phone.jpg);
+    img#phone {display: block;} /* mostrar imagem de celular */
+    .cell {display: block;}
+}
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet */
     body {
     background-image: url(../imagens/back-tablet.jpg);
     img#tablet {display: block;} /* mostrar imagem de tablet */
     img#phone {display: none;} /* esconder imagem de celular */
+    .tb {display: block;}
 }
 }
 
@@ -51,6 +60,8 @@ main h1 {
         background-image: url(../imagens/back-pc.jpg);
         img#pc {display: block;} /* mostrar imagem de PC */
         img#phone {display: none;} /* esconder imagem de celular */
+        .pc {display: block;}
+        .tb {display: none;}
 }
 }
 
@@ -61,5 +72,8 @@ main h1 {
         background-image: url(../imagens/back-tv.jpg);
         img#tv {display: block;} /* mostrar imagem de TV */
         img#phone {display: none;} /* esconder imagem de celular */
+        .tv {display: block;}
+        .tb {display: none;}
 }
+
 }
