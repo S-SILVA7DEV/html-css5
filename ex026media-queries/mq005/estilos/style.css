@@ -156,6 +156,7 @@ footer {
     menu ul {
         flex-direction: row; /* Alinha os itens do menu horizontalmente */
     }
+
     
     main {
         width: 768px; /* Define uma largura fixa para o conteúdo principal em telas maiores */
@@ -167,6 +168,9 @@ footer {
         flex-direction: column; /* Alinha os itens do menu verticalmente em telas menores */
         gap: 10px;
         text-align: center;
+    }
+    #ico{
+        display: none;
     }
 
     ul a {
